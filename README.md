@@ -1,6 +1,6 @@
 # Ranking-preserved Temporal Graph Convolutional Network
 
-This repository contains the python implementation for paper "A Gospel for MOBA Game: Ranking-Preserved Hero Change Prediction in Dota 2".
+This repository contains the python implementation for paper "A Gospel for MOBA Game: Ranking-Preserved Hero Change Prediction in Dota 2."
 
 ## Paper Abstract
 
@@ -27,7 +27,7 @@ Dota 2 is one of the most popular Multiplayer Online Battle Arena (MOBA) games, 
 
 ## How to Run
 
-For our method, change the model in `r3gl_rank_train.py` to 'R3GL_Rank_parameter', then run
+For our method, change the model in `r3gl_rank_train.py` to 'R3GL_Rank_parameter' and then run
 ```bash
 python r3gl_rank_train.py
 ```
@@ -37,4 +37,4 @@ To select the adjacency matrices to use, change the hyperparameter 'NUM_ADJ' in 
 python r3gl_rank_train.py
 ```
 
-For baseline models, run the corresponding file as described in Section 'File Description'.
+For baseline models, run the corresponding file as described in Section 'File Description.'
